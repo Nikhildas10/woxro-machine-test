@@ -2,16 +2,13 @@ import React, { useState } from "react";
 import heroImage from "../assets/fortnite-pictures-b5kfcchwazwiz3cs 1.png";
 import close from "../assets/close.svg";
 const Hero = () => {
-  const [rotate, setRotate] = useState(false);
-  const handleClick = () => {
-    setRotate(!rotate);
-  };
+
   return (
     <div className="hero">
       <div className="closeBtn-wrapper">
         <div
-          onClick={handleClick}
-          className={rotate ? "closeBtn rotate" : "closeBtn"}
+         
+          className="closeBtn" 
         >
 
         <img src={close} alt="" />

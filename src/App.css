@@ -17,17 +17,14 @@ body{
   justify-content: end;
   
 }
-.closeBtn{
-  cursor: pointer;
- 
-  transition: transform 0.3s ease;
-}
 .closeBtn img{
+  transition: transform 0.3s ease;
    width: 20px;
   height: 20px;
+  cursor: pointer;
 }
-.closeBtn.rotate {
-  transform: rotate(45deg);
+.closeBtn img:hover {
+  transform: rotate(50deg);
 }
 
 .hero h3{
